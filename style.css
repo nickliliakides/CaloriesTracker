@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(64, 191, 128, 0.7),
+      rgba(153, 102, 255, 0.7)
+    ),
+    url(tracalor.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h3 {
+  color: aliceblue;
+  font-weight: bolder;
+  text-shadow: 2px 1px gray;
+}
+
+.brand-logo {
+  cursor: default;
+}
+
+.main-title {
+  font-family: "Fredoka One", cursive;
+}
+
+.card {
+  background-color: rgba(251, 253, 252, 0.8);
+}
+
+.collection-item {
+  background-color: rgba(251, 253, 252, 0.8) !important;
+  font-size: 18px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 6px rgba(155, 151, 151, 0.9);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 1px 2px 3px rgba(155, 151, 151, 0.9);
+}
